@@ -1,0 +1,21 @@
+{
+  "workers": [
+    { "name": "田中職人", "skills": ["看板貼付"], "base": "西区" },
+    { "name": "佐藤職人", "skills": ["電飾施工"], "base": "北区" },
+    { "name": "鈴木職人", "skills": ["看板貼付", "電飾施工"], "base": "中央区" },
+    { "name": "高橋職人", "skills": ["看板貼付"], "base": "此花区" }
+  ],
+  "jobs": [
+    { "id": "A", "location": "西区", "type": "看板貼付", "time": "9:00-10:00" },
+    { "id": "B", "location": "北区", "type": "電飾施工", "time": "10:30-11:30" },
+    { "id": "C", "location": "此花区", "type": "看板貼付", "time": "13:00-14:00" },
+    { "id": "D", "location": "中央区", "type": "電飾施工", "time": "14:30-15:30" },
+    { "id": "E", "location": "西区", "type": "看板貼付", "time": "16:00-17:00" }
+  ],
+  "constraints": {
+    "maxJobsPerDay": 4,
+    "maxMorningJobs": 2,
+    "maxAfternoonJobs": 2,
+    "morningEnd": 720
+  }
+}

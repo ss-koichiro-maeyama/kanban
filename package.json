@@ -1,0 +1,25 @@
+{
+  "name": "kanban-scheduler",
+  "version": "1.0.0",
+  "description": "AI assistant for craftsman schedule allocation",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "test": "npm run build && node dist/test.js"
+  },
+  "keywords": [
+    "scheduling",
+    "allocation",
+    "craftsman",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.0.0"
+  }
+}
